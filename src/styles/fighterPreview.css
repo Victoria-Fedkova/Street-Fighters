@@ -1,13 +1,31 @@
 .fighter-preview___root {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 250px;
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: 250px; */
 }
 
 .fighter-preview___right {
-  align-items: flex-end;
+    align-items: flex-end;
 }
 
 .fighter-preview___left {
-  align-items: flex-start;
+    align-items: flex-start;
+}
+
+.fighter-preview___right--wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+}
+
+.fighter-preview___left--wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: aliceblue;
+}
+
+.fighter-preview___img {
+    /* width: 12em; */
 }
